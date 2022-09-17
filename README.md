@@ -3,7 +3,7 @@
 ## Installation
 
 ```bash
-npm install --save language-generator
+npm install --save deity-generator
 ```
 
 ## Usage
