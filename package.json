@@ -1,6 +1,6 @@
 {
   "name": "deity-generator",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "A generator for deities",
   "main": "dist/main.js",
   "files": [
@@ -24,7 +24,7 @@
     "@babel/core": "^7.19.1",
     "@babel/preset-env": "^7.19.1",
     "babel-loader": "^8.2.5",
-    "language-generator": "^0.2.0",
+    "language-generator": "^0.3.0",
     "random-seed": "^0.3.0",
     "webpack": "^5.74.0",
     "webpack-cli": "^4.10.0"
