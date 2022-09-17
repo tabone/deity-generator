@@ -1,0 +1,32 @@
+{
+  "name": "deity-generator",
+  "version": "0.1.0",
+  "description": "A generator for deities",
+  "main": "dist/main.js",
+  "files": [
+    "dist",
+    "src",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tabone/deity-generator.git"
+  },
+  "author": "Luca Tabone <taboneluca3@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/tabone/naming-language/issues"
+  },
+  "homepage": "https://github.com/tabone/naming-language#readme",
+  "devDependencies": {
+    "@babel/core": "^7.19.1",
+    "@babel/preset-env": "^7.19.1",
+    "babel-loader": "^8.2.5",
+    "language-generator": "^0.2.0",
+    "random-seed": "^0.3.0",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
