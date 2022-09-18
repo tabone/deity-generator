@@ -9,7 +9,7 @@ export function createDeity (seed = (new Date()).getTime()) {
   const language = makeRandomLanguage(seed)
 
   const name = language.makeName('name')
-  const gender = rand() > .5 ? 'male' : 'female'
+  const gender = rand.random() > .5 ? 'male' : 'female'
   const creature = creatures[rand(creatures.length)]
   const spheres = getSpheres(rand)
 
