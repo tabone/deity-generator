@@ -1,4 +1,4 @@
-import spheresInfo from "./data/spheres"
+import spheresInfo from "../data/spheres"
 
 export default function isSphereCompatible (sphereOne, sphereTwo) {
   if (sphereOne === sphereTwo) return false

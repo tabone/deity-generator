@@ -9,11 +9,22 @@ npm install --save deity-generator
 ## Usage
 
 ```javascript
-import { createDeity } from 'deity-generator'
+import { Deity } from 'deity-generator'
 
-createDeity('seed') // => ak Upuh most often takes the form of a female giant toad and is as sociated with rulership and jealousy.
+const deity = new Deity('seed')
+
+console.log(deity.name)         // => ak Upuh
+console.log(deity.gender)       // => male
+console.log(deity.spheres)      // => [ 'rulership', 'jealousy' ]
+console.log(deity.creature)     // => cave swallow
+console.log(deity.toString())   // => ak Upuh most often takes the form of a male cave swallow and is associated with rulership and jealousy.
 ```
 
-## Global API
+## Deity API
 
-## .createDeity([seed:`string`]) => `string`
+### new Deity([seed:`string`]) => `Deity`
+### .name() => `string`
+### .gender() => `string`
+### .spheres() => `string`
+### .creature() => `string`
+### .toString() => `string`

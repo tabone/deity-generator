@@ -1,4 +1,4 @@
-import spheresInfo from "./data/spheres"
+import spheresInfo from "../data/spheres"
 import isSphereCompatible from "./isSphereCompatible"
 
 const spheres = Object.keys(spheresInfo)
@@ -61,11 +61,7 @@ export default function getSpheres (rand) {
     return selectedSpheres
   }
 
-  const chosenSpheres = chooseFriendlySpheres(
+  return chooseFriendlySpheres(
     chooseBaseSpheres()
   ).map(sphere => sphere.toLowerCase())
-
-  if (chosenSpheres.length === 1) return chosenSpheres[0]
-  const [lastSphere] = chosenSpheres.splice(-1, 1)
-  return `${chosenSpheres.join(', ')} and ${lastSphere}`
 }
