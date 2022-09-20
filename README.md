@@ -25,13 +25,30 @@ console.log(deity.toString())   // => ak Upuh most often takes the form of a mal
 ## Deity API
 
 ### new Deity([seed:`string`]) => `Deity`
+
+Used to create a new Deity
+
 ### .name() => `string`
+
+Used to get the Deity's name.
+
 ### .gender() => `string`
+
+Used to get the Deity's gender.
+
 ### .spheres() => `string`
+
+Used to get the Deity's spheres.
+
 ### .creature() => `string`
+
+Used to get the Deity's name.
+
 ### .toString() => `string`
 
-# References
+Used to descripe the Deity.
+
+## References
 
 - [DF2014:Deity](https://dwarffortresswiki.org/index.php/DF2014:Deity)
 - [DF2014:Creature](https://dwarffortresswiki.org/index.php/DF2014:Creature)
