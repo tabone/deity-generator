@@ -1,5 +1,7 @@
 # Deity Generator
 
+Generates a random Dwarf Fortress Deity.
+
 ## Installation
 
 ```bash
@@ -28,3 +30,10 @@ console.log(deity.toString())   // => ak Upuh most often takes the form of a mal
 ### .spheres() => `string`
 ### .creature() => `string`
 ### .toString() => `string`
+
+# References
+
+- [DF2014:Deity](https://dwarffortresswiki.org/index.php/DF2014:Deity)
+- [DF2014:Creature](https://dwarffortresswiki.org/index.php/DF2014:Creature)
+- [DF2014:Animals](https://dwarffortresswiki.org/index.php/Category:DF2014:Animals)
+- [DF2014:Deity](https://dwarffortresswiki.org/index.php/DF2014:Vermin)
