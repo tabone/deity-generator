@@ -40,7 +40,8 @@ export default {
       "CHILDREN",
       "CREATION",
       "FAMILY",
-      "MARRIAGE,<br>PREGNANCY",
+      "MARRIAGE",
+      "PREGNANCY",
       "REBIRTH",
       "YOUTH"
     ],
@@ -171,7 +172,8 @@ export default {
       "DARKNESS",
       "NIGHT",
       "DAWN",
-      "DUSK<br>DREAMS",
+      "DUSK",
+      "DREAMS",
       "NIGHTMARES",
       "TWILIGHT"
     ]
@@ -180,7 +182,8 @@ export default {
     "compatible": [
       "BLIGHT",
       "DISEASE",
-      "MURDER,<br>REBIRTH",
+      "MURDER",
+      "REBIRTH",
       "SUICIDE",
       "WAR"
     ],
@@ -729,9 +732,11 @@ export default {
     "compatible": [
       "AGRICULTURE",
       "FERTILITY",
-      "LIGHTNING,<br>NATURE",
+      "LIGHTNING",
+      "NATURE",
       "PLANTS",
-      "RAINBOWS,<br>STORMS",
+      "RAINBOWS",
+      "STORMS",
       "THUNDER",
       "TREES"
     ],

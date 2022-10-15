@@ -11,9 +11,9 @@ npm install --save deity-generator
 ## Usage
 
 ```javascript
-import { Deity } from 'deity-generator'
+import { Deity } from "deity-generator"
 
-const deity = new Deity('seed')
+const deity = new Deity({ seed: "seed" })
 
 console.log(deity.name)         // => ak Upuh
 console.log(deity.gender)       // => male
@@ -24,23 +24,23 @@ console.log(deity.toString())   // => ak Upuh most often takes the form of a mal
 
 ## Deity API
 
-### new Deity([seed:`string`]) => `Deity`
+### new Deity({ [seed:`string`] }) => `Deity`
 
 Used to create a new Deity
 
-### .name() => `string`
+### .name => `string`
 
 Used to get the Deity's name.
 
-### .gender() => `string`
+### .gender => `string`
 
 Used to get the Deity's gender.
 
-### .spheres() => `string`
+### .spheres => `string`
 
 Used to get the Deity's spheres.
 
-### .creature() => `string`
+### .creature => `string`
 
 Used to get the Deity's name.
 

@@ -6,7 +6,11 @@ import getSpheres from './utils/getSpheres'
 import stringifySpheres from './utils/stringifySpheres'
 
 export default class Deity {
-  constructor (seed = seed = (new Date()).getTime()) {
+  constructor (props = {}) {
+    const {
+      seed = (new Date()).getTime()
+    } = props
+
     const rand = randomGenerator(seed)
     const language = makeRandomLanguage(seed)
 
