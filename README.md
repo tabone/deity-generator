@@ -11,22 +11,30 @@ npm install --save deity-generator
 ## Usage
 
 ```javascript
-import { Deity } from "deity-generator"
+import { Deity } from 'deity-generator'
 
-const deity = new Deity({ seed: "seed" })
+const deity = new Deity({ seed: 'seed' })
 
-console.log(deity.name)         // => ak Upuh
-console.log(deity.gender)       // => male
-console.log(deity.spheres)      // => [ 'rulership', 'jealousy' ]
-console.log(deity.creature)     // => cave swallow
-console.log(deity.toString())   // => ak Upuh most often takes the form of a male cave swallow and is associated with rulership and jealousy.
+console.log(deity.name) // => ak Upuh
+console.log(deity.gender) // => male
+console.log(deity.spheres) // => [ 'rulership', 'jealousy' ]
+console.log(deity.creature) // => cave swallow
+console.log(deity.toString()) // => ak Upuh most often takes the form of a male cave swallow and is associated with rulership and jealousy.
 ```
 
 ## Deity API
 
-### new Deity({ [seed:`string`] }) => `Deity`
+### new Deity(`props`) => `Deity`
 
-Used to create a new Deity
+Used to create a new Deity.
+
+| Field            | Type     | Description                      |
+| ---------------- | -------- | -------------------------------- |
+| `props.seed`     | string   | Seed used to generate the deity. |
+| `props.name`     | string   | Deity's name.                    |
+| `props.gender`   | string   | Deity's gender.                  |
+| `props.creature` | string   | Deity's creature.                |
+| `props.spheres`  | string[] | Deity's spheres.                 |
 
 ### .name => `string`
 
